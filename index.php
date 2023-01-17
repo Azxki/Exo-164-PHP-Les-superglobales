@@ -7,3 +7,9 @@
  * 3. Uploadez ce projet sur votre serveur et testez !
  */
 // TODO Votre code ici
+
+echo "Nom du fichier : " . $_SERVER['PHP_SELF'] . "<br>";
+echo "Nom du serveur : " . $_SERVER['SERVER_NAME'] . "<br>";
+echo "IP du serveur : " . $_SERVER['SERVER_ADDR'] . "<br>";
+echo "IP du visiteur : " . $_SERVER['REMOTE_ADDR'] . "<br>";
+echo "Temps de la requête : " . $_SERVER['REQUEST_TIME'] . "<br>";
